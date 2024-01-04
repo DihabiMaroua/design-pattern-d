@@ -13,11 +13,11 @@
 ## Réponses aux Questions
 ### Question 1 : Avantages de programmer vers une interface et non vers une implémentation
 La programmation orientée vers une interface favorise la flexibilité et l'interchangeabilité, permettant des changements d'implémentations sans impacter le code client, ce qui facilite grandement la maintenance et l'évolutivité. En réduisant les dépendances entre composants, elle encourage le dé-couplage, rendant ainsi les modifications et extensions plus aisées. Cette approche simplifie également les tests unitaires grâce à l'utilisation de mocks basés sur des interfaces, rendant les tests à la fois plus faciles et plus fiables. Enfin, le polymorphisme inhérent à cette méthode permet de traiter divers objets de différentes classes de manière uniforme, tant qu'ils adhèrent à la même interface, renforçant ainsi la modularité et la réutilisabilité du code. 
-Voir l’exemple du code source `q1.php`, et diagramme `q1.png`
+- Voir l’exemple du code source `q1.php`, et diagramme `q1.png`
 
 ### Question 2 : Pourquoi préférer la composition à l'héritage
 La composition est souvent préférée à l'héritage car elle offre une flexibilité accrue, une meilleure réutilisation du code, et une réduction de l'interdépendance entre les classes. Cela simplifie la maintenance, améliore la lisibilité du code grâce à une conception plus explicite, et facilite les mises à jour en permettant une substitution aisée des composants, rendant ainsi le système plus modulaire et évolutif. 
-Voir l’exemple du code source `q2.php`, et diagramme `q2.png`
+- Voir l’exemple du code source `q2.php`, et diagramme `q2.png`
 
 ### Question 3 : Qu'est-ce qu'une interface en programmation orientée objet
 Une interface en POO est une déclaration de méthodes qui n'ont pas d'implémentation. Elle définit un ensemble de méthodes que toutes les classes implémentant l'interface doivent fournir. Les interfaces sont un moyen de définir des types par la forme de leur comportement plutôt que par leur implémentation concrète, ce qui permet de garantir qu'une classe possède certaines méthodes.
@@ -28,9 +28,9 @@ Une interface en POO est une déclaration de méthodes qui n'ont pas d'implémen
 #### Situation initiale
 Imaginons une application de blog populaire où les utilisateurs peuvent publier des articles, et d'autres utilisateurs peuvent s'abonner pour recevoir des notifications sur de nouveaux posts ou mises à jour. Dans la situation initiale, chaque fois qu'un auteur publie un nouvel article ou met à jour un article existant, l'application envoie une notification par courriel à tous les abonnés de cet auteur. Cela entraîne une surcharge de travail pour le serveur lors de l'envoi de courriels, surtout si certains auteurs sont très suivis et que les abonnés ne sont intéressés que par certains types d'articles.
 #### Problème à résoudre 
-Surcharge du serveur : Envoi massif de notifications par courriel, surtout lors de la publication par des auteurs populaires.
-Manque de personnalisation : Les abonnés reçoivent des notifications pour tous les articles d'un auteur, même s'ils ne sont intéressés que par certains sujets.
-Expérience utilisateur médiocre : Les utilisateurs peuvent se sentir submergés par un excès de notifications non pertinentes.
+- Surcharge du serveur : Envoi massif de notifications par courriel, surtout lors de la publication par des auteurs populaires.
+- Manque de personnalisation : Les abonnés reçoivent des notifications pour tous les articles d'un auteur, même s'ils ne sont intéressés que par certains sujets.
+- Expérience utilisateur médiocre : Les utilisateurs peuvent se sentir submergés par un excès de notifications non pertinentes.
 
 
 
