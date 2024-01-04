@@ -59,4 +59,4 @@ Imaginons une application de blog populaire où les utilisateurs peuvent publier
 ### Étapes à suivre :
 1. **Cloner le dépôt :**
    ```sh
-   git clone [[URL de votre dépôt]](https://github.com/DihabiMaroua/design-pattern-d.git)https://github.com/DihabiMaroua/design-pattern-d.git
+   git clone https://github.com/DihabiMaroua/design-pattern-d.git
