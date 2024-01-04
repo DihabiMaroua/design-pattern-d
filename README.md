@@ -8,7 +8,7 @@
     - [Problème à résoudre](#Problème_à_résoudre)
   - [Avantages/Inconvénients](#avantagesinconvénients)
   - [Diagramme de Classes UML](#diagramme-de-classes-uml)
-- [Lancer le Projet](#lancer-le-projet)
+  - [Lancer le Projet](#lancer-le-projet)
 
 ## Réponses aux Questions
 ### Question 1 : Avantages de programmer vers une interface et non vers une implémentation
@@ -52,11 +52,11 @@ Imaginons une application de blog populaire où les utilisateurs peuvent publier
 ### Diagramme de Classes UML
 `diagrammeUML_designPattern.png`
 
-## Lancer le Projet
-### Prérequis :
+### Lancer le Projet
+#### Prérequis :
 - PHP version 7.2 ou supérieure. Téléchargez et installez PHP depuis le [site officiel](https://www.php.net/).
 
-### Étapes à suivre :
+#### Étapes à suivre :
 1. **Cloner le dépôt :**
    ```sh
    git clone https://github.com/DihabiMaroua/design-pattern-d.git
