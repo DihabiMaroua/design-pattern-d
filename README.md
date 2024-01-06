@@ -2,7 +2,7 @@
 
 ## Table des Matières
 - [Réponses aux Questions](#réponses-aux-questions)
-- [Design Pattern: Observer](#design-pattern-observer)
+- [Design Pattern: Observer](#design-pattern--observer)
   - [Contexte](#contexte)
     - [Situation initiale](#situation-initiale)
     - [Problème à résoudre](#problème-à-résoudre)
