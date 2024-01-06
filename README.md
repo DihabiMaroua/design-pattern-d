@@ -17,7 +17,7 @@ Voir l’exemple du code source [`q1.php`](./q1.php), et diagramme [`q1.png`](./
 
 ### Question 2 : Pourquoi préférer la composition à l'héritage
 La composition est souvent préférée à l'héritage car elle offre une flexibilité accrue, une meilleure réutilisation du code, et une réduction de l'interdépendance entre les classes. Cela simplifie la maintenance, améliore la lisibilité du code grâce à une conception plus explicite, et facilite les mises à jour en permettant une substitution aisée des composants, rendant ainsi le système plus modulaire et évolutif. 
-Voir l’exemple du code source `q2.php`, et diagramme `q2.png`
+Voir l’exemple du code source [`q2.php`](./q2.php), et diagramme [`q2.png`](./q2.png)
 
 ### Question 3 : Qu'est-ce qu'une interface en programmation orientée objet
 Une interface en POO est une déclaration de méthodes qui n'ont pas d'implémentation. Elle définit un ensemble de méthodes que toutes les classes implémentant l'interface doivent fournir. Les interfaces sont un moyen de définir des types par la forme de leur comportement plutôt que par leur implémentation concrète, ce qui permet de garantir qu'une classe possède certaines méthodes.
@@ -47,7 +47,7 @@ Expérience utilisateur médiocre : Les utilisateurs peuvent se sentir submergé
 
 
 ### Diagramme de Classes UML
-`diagrammeUML_designPattern.png`
+[`diagrammeUML_designPattern.png`](./diagrammeUML_designPattern.png)
 
 ## Lancer le Projet
 ### Prérequis :
@@ -57,3 +57,12 @@ Expérience utilisateur médiocre : Les utilisateurs peuvent se sentir submergé
 1. **Cloner le dépôt :**
    ```sh
    git clone https://github.com/DihabiMaroua/design-pattern-d.git
+   ```
+2. **Naviguer dans le répertoire :**
+   ```sh
+   cd design-pattern-d
+   ```
+3. **Exécuter le script :**
+   ```sh
+   php nom_du_script.php
+   ```
