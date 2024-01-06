@@ -13,7 +13,7 @@
 ## Réponses aux Questions
 ### Question 1 : Avantages de programmer vers une interface et non vers une implémentation
 La programmation orientée vers une interface favorise la flexibilité et l'interchangeabilité, permettant des changements d'implémentations sans impacter le code client, ce qui facilite grandement la maintenance et l'évolutivité. En réduisant les dépendances entre composants, elle encourage le dé-couplage, rendant ainsi les modifications et extensions plus aisées. Cette approche simplifie également les tests unitaires grâce à l'utilisation de mocks basés sur des interfaces, rendant les tests à la fois plus faciles et plus fiables. Enfin, le polymorphisme inhérent à cette méthode permet de traiter divers objets de différentes classes de manière uniforme, tant qu'ils adhèrent à la même interface, renforçant ainsi la modularité et la réutilisabilité du code. 
-Voir l’exemple du code source `./design-pattern-d/q1.php`, et diagramme `q1.png`
+Voir l’exemple du code source [`q1.php`]`(./design-pattern-d/q1.php), et diagramme `q1.png`
 
 ### Question 2 : Pourquoi préférer la composition à l'héritage
 La composition est souvent préférée à l'héritage car elle offre une flexibilité accrue, une meilleure réutilisation du code, et une réduction de l'interdépendance entre les classes. Cela simplifie la maintenance, améliore la lisibilité du code grâce à une conception plus explicite, et facilite les mises à jour en permettant une substitution aisée des composants, rendant ainsi le système plus modulaire et évolutif. 
