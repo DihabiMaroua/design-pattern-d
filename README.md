@@ -64,5 +64,5 @@ Expérience utilisateur médiocre : Les utilisateurs peuvent se sentir submergé
    ```
 3. **Exécuter le script :**
    ```sh
-   php nom_du_script.php
+   php designPattern.php
    ```
