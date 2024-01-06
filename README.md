@@ -4,11 +4,11 @@
 - [Réponses aux Questions](#réponses-aux-questions)
 - [Design Pattern : Observer](#design-pattern-observer)
   - [Contexte](#contexte)
-    - [Situation initiale](#situation_initiale)
-    - [Problème à résoudre](#Problème_à_résoudre)
+    - [Situation Initiale](#situation-initiale)
+    - [Problème à Résoudre](#problème-à-résoudre)
   - [Avantages/Inconvénients](#avantagesinconvénients)
   - [Diagramme de Classes UML](#diagramme-de-classes-uml)
-  - [Lancer le Projet](#lancer-le-projet)
+- [Lancer le Projet](#lancer-le-projet)
 
 ## Réponses aux Questions
 ### Question 1 : Avantages de programmer vers une interface et non vers une implémentation
@@ -25,9 +25,9 @@ Une interface en POO est une déclaration de méthodes qui n'ont pas d'implémen
 ## Design Pattern : Observer
 
 ### Contexte
-#### Situation initiale
+#### [Situation Initiale](#situation-initiale)
 Imaginons une application de blog populaire où les utilisateurs peuvent publier des articles, et d'autres utilisateurs peuvent s'abonner pour recevoir des notifications sur de nouveaux posts ou mises à jour. Dans la situation initiale, chaque fois qu'un auteur publie un nouvel article ou met à jour un article existant, l'application envoie une notification par courriel à tous les abonnés de cet auteur. Cela entraîne une surcharge de travail pour le serveur lors de l'envoi de courriels, surtout si certains auteurs sont très suivis et que les abonnés ne sont intéressés que par certains types d'articles.
-#### Problème à résoudre 
+#### [Problème à Résoudre](#problème-à-résoudre)
 - Surcharge du serveur : Envoi massif de notifications par courriel, surtout lors de la publication par des auteurs populaires.
 - Manque de personnalisation : Les abonnés reçoivent des notifications pour tous les articles d'un auteur, même s'ils ne sont intéressés que par certains sujets.
 - Expérience utilisateur médiocre : Les utilisateurs peuvent se sentir submergés par un excès de notifications non pertinentes.
