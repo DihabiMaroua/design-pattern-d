@@ -22,7 +22,7 @@ Voir l’exemple du code source `q2.php`, et diagramme `q2.png`
 ### Question 3 : Qu'est-ce qu'une interface en programmation orientée objet
 Une interface en POO est une déclaration de méthodes qui n'ont pas d'implémentation. Elle définit un ensemble de méthodes que toutes les classes implémentant l'interface doivent fournir. Les interfaces sont un moyen de définir des types par la forme de leur comportement plutôt que par leur implémentation concrète, ce qui permet de garantir qu'une classe possède certaines méthodes.
 
-## Design Pattern : Observer
+## [Design Pattern : Observer](#design-pattern-observer)
 
 ### Contexte
 #### [Situation initiale](#situation_initiale)
