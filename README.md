@@ -2,10 +2,10 @@
 
 ## Table des Matières
 - [Réponses aux Questions](#réponses-aux-questions)
-- [Design Pattern : Observer](#design-pattern-observer)
+- [Design Pattern: Observer](#design-pattern-observer)
   - [Contexte](#contexte)
-    - [Situation initiale](#situation_initiale)
-    - [Problème à résoudre](#Problème_à_résoudre)
+    - [Situation initiale](#situation-initiale)
+    - [Problème à résoudre](#problème-à-résoudre)
   - [Avantages/Inconvénients](#avantagesinconvénients)
   - [Diagramme de Classes UML](#diagramme-de-classes-uml)
 - [Lancer le Projet](#lancer-le-projet)
